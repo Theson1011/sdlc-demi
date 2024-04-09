@@ -114,7 +114,7 @@
             {
                 $sql = "INSERT INTO students VALUES ('$Rollno', '$Sname', '$Address', '$Email')";
                 mysqli_query($conn,$sql);
-                echo '<meta http-equiv="refresh" content="0; URL=StudentList.php"';
+                echo '<meta http-equiv="refresh" content="0; URL=Studentlistnew.php"';
             }
             else
             {
@@ -154,8 +154,11 @@
                 <td colspan="2" align="center">
                     <input type="submit" value="Add" name="btnAdd"/>
                     <input type="reset" value="cancel" name="btnCancel"/>
+                    <h5><a href="Studentlistnew.php"></a>back to list</h5>
                 </td>
+                
            </tr>
+          
         </table>
     </form>
 
