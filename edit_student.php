@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Student</title>
     <style>
-                body {
+            body {
             font-family: Arial, sans-serif;
-            background-color: #000066;
+            background-color: green;
             margin: 0;
             padding: 0;
             height: 100%;
@@ -72,6 +72,8 @@
             color:white;
             font-size: 30px;
         }
+
+        
     </style>
 </head>
 <body>
