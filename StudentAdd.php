@@ -130,6 +130,7 @@
     <form method="post" id="AddStudent">
         <table align="center" border="0" cellpadding="1" cellspacing="1">
            <caption align="center"><b>Adding Student</b></caption> 
+           <a href="Studentlistnew.php">Back</a>
            <tr>
                 <td>Rollno</td>
                 <td><input type="text" name="Rollno"/>(*)</td>
@@ -154,7 +155,6 @@
                 <td colspan="2" align="center">
                     <input type="submit" value="Add" name="btnAdd"/>
                     <input type="reset" value="cancel" name="btnCancel"/>
-                    <h5><a href="Studentlistnew.php"></a>back to list</h5>
                 </td>
                 
            </tr>

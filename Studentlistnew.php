@@ -117,7 +117,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
         <td><?php echo $row['Email']; ?></td>
         <td><a href="edit_student.php?id=<?php echo $row['Rollno']; ?>">Edit</a></td>
         <td><a href="?delete_id=<?php echo $row['Rollno']; ?>">Delete</a></td>
-        <td><a href="StudentAdd.php?id=<?php echo $row['Rollno']; ?>">Add</a></td>
 
     </tr>
     <?php
@@ -140,7 +139,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 
     ?>
-
+    <td><a href="StudentAdd.php">Add</a></td>
 
 
 
